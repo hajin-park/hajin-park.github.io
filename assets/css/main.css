@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    background-image: -webkit-linear-gradient(top, #000000, #000000, #000000,#000000,#101010,#202020, #303030);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.main-grid-container {
+    display: grid;
+    height: 100%;
+    grid-template: 100px 1fr 200px / 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content-grid {
+    display: grid;
+    grid-template: 100px 100px 1fr / 1fr;
+    justify-items: center;
+    font-size: 2rem;
+}
+
+.footer-flexbox {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
