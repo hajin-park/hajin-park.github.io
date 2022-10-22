@@ -1,2 +1,2 @@
-# Portfolio-Website
-My personal online portfolio showcasing my small programming projects and designs.
+# Portfolio Website
+Portfolio website built using Create-React-App, TailwindCSS, and Google Firebase.
