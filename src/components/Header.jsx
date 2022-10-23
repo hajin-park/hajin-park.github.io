@@ -1,6 +1,6 @@
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
-const Header = () => {
+export default function Header() {
     useEffect(() => {
         const changeOpacity = () => {
             const headerContainer = document.getElementById('header-container')
@@ -20,5 +20,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header
