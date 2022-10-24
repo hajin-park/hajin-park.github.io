@@ -1,7 +1,7 @@
 export default function CertificateItem({ item }) {
     return (
         <li>
-            <p class='font-semibold'>{item.name}</p>
+            <p class='font-semibold text-lg'>{item.name}</p>
         </li>
     )
 }
