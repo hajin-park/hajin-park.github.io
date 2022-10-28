@@ -7,9 +7,11 @@ export default function NavBar() {
             </div>
             <nav className='bg-green-300 h-20 w-full'>
                 <ul className='h-full w-full flex items-center justify-around font-extrabold text-2xl'>
+                    <li><a href='/'>About Me</a></li>
                     <li><a href='/'>Projects</a></li>
                     <li><a href='/'>Skills</a></li>
                     <li><a href='/'>Certificates</a></li>
+                    <li><a href='#footer'>Contacts</a></li>
                 </ul>
             </nav>
         </section>
