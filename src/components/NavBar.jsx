@@ -8,10 +8,10 @@ export default function NavBar() {
             <nav className='transition-all bg-green-900 dark:bg-green-200 h-20 w-full group-hover:translate-x-1 group-hover:translate-y-1 group-active:translate-x-2 group-active:translate-y-2'>   
                 <ul className='h-full w-full flex items-center justify-around font-extrabold text-2xl text-green-400 dark:text-green-700'>
                     <li className='hover:underline active:text-green-200 dark:active:text-green-900'><a href='#about-me'>About Me</a></li>
-                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#footer'>Projects</a></li>
-                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#footer'>Skills</a></li>
-                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#footer'>Certificates</a></li>
-                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#footer'>Socials</a></li>
+                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#socials'>Projects</a></li>
+                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#socials'>Skills</a></li>
+                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#socials'>Certificates</a></li>
+                    <li className='hover:underline active:text-green-200  dark:active:text-green-900'><a href='#socials'>Socials</a></li>
                 </ul>
             </nav>
         </section>
