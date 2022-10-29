@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className='group relative -skew-x-[4deg]'>
+        <section className='group relative'>
             <div className='transition-all delay-100 absolute -translate-x-2 translate-y-2 group-hover:translate-y-4 group-hover:-translate-x-4 -z-10 h-20 w-full bg-pink-400 dark:bg-pink-700'>
             </div>
             <div className='transition-all absolute -translate-x-4 translate-y-4 group-hover:translate-y-6 group-hover:-translate-x-6 -z-20 h-20 w-full bg-pink-200 dark:bg-pink-900 shadow-lg shadow-pink-700/40 dark:shadow-pink-900/60'>
