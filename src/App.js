@@ -1,13 +1,9 @@
-import NavBar from './components/NavBar'
-import AboutMe from './components/AboutMe'
-import Socials from './components/Socials'
+import LandingSection from './components/LandingSection'
 
 export default function App() {
     return (
         <>
-            <NavBar />
-            <AboutMe />
-            <Socials />
+            <LandingSection />
         </>
     )
 }
