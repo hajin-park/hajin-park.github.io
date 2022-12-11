@@ -9,9 +9,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      gridTemplateRows: {
-        '8': 'repeat(8, minmax(0, 1fr))',
-      }
+      spacing: {
+        192: '48rem',
+        288: '72rem',
+        384: '96rem'
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
