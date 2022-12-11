@@ -10,14 +10,21 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        192: '48rem',
-        288: '72rem',
-        384: '96rem'
+        112: '28rem'
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
-    },
+      animation: {
+        fadeIn: "fadeIn 1.5s ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        }
+      },
+    }
   },
   plugins: [],
 }
