@@ -24,7 +24,11 @@ module.exports = {
           "100%": { opacity: 1 }
         }
       },
+      clipPath: {
+        "poly-right": "polygon(0 0, 100% 150px, 100% 100%, 0 100%)",
+        "poly-left": "polygon(0 150px, 100% 0, 100% 100%, 0 100%)",
+      },
     }
   },
-  plugins: [],
+  plugins: [require('tailwind-clip-path')],
 }
