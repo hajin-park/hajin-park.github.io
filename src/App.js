@@ -6,7 +6,7 @@ import Contacts from './components/Contacts'
 import Backgrounds from './components/Backgrounds'
 
 export default function App() {
-    const gradients = useRef([0,100,200])
+    const gradients = useRef([0,0,0])
 
     const callback = (entries) => {
         entries.forEach(entry => {
@@ -20,13 +20,13 @@ export default function App() {
 
     const backgroundTransition = () => {
         const background = document.querySelector(".background")
-
-        background.classList.remove(`from-sky-${gradients.current[0]}`, `via-rose-${gradients.current[1]}`, `to-amber-${gradients.current[2]}`)
-
-        gradients.current = gradients.current.map(gradient => gradient === 900 ? 0 : gradient + 100)
-
-        background.classList.add(`from-sky-${gradients.current[0]}`, `via-rose-${gradients.current[1]}`, `to-amber-${gradients.current[2]}`)
-        console.log(gradients.current)
+        for (const c of background.classList) {
+            if (["from", "via", "to"].includes(c.split("-")[0])) {
+                console.log(background.classList)
+                background.classList.remove(c)
+                background.classList.add(`${c.split("-")[0]}-[#${"FFFFFF"}]`)
+            }
+        }
     }
 
     useEffect(() => {
