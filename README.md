@@ -1,3 +1,3 @@
 # Portfolio Website
 
-[Portfolio website](https://hajinpark.org) my masterpiece
+[Portfolio website](https://hajinpark.com) my masterpiece
