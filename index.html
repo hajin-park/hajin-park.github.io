@@ -3,22 +3,58 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
         <title>Portfolio</title>
     </head>
     <body>
         <main>
-            <h1>Hajin Park</h1>
-            <p>B.S. Computer Science and Engineering, 2nd Year</p>
-            <h2>interests:</h2>
-            <p>
-                audio engineering, signal processing, machine learning, deep
-                learning, web dev
-            </p>
-            <h2>websites ive worked on</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#header">home</a>
+                    </li>
+                    <li>
+                        <a href="#resume">resume</a>
+                    </li>
+                    <li>
+                        <a href="#websites">websites</a>
+                    </li>
+                    <li>
+                        <a href="#projects">projects</a>
+                    </li>
+                    <li>
+                        <a href="#languages">languages</a>
+                    </li>
+                    <li>
+                        <a href="#frameworks">frameworks</a>
+                    </li>
+                </ul>
+            </nav>
+            <header id="header">
+                <h1>Hajin Park</h1>
+                <p>B.S. Computer Science and Engineering, 2nd Year</p>
+                <h2>interests:</h2>
+                <p>
+                    audio signal processing, audio engineering, machine
+                    learning, deep learning, web dev
+                </p>
+                <img
+                    id="skull-gif-1"
+                    src="public/rotating_skull.gif"
+                    alt="My awesome gif"
+                />
+            </header>
+
+            <h2 id="websites">websites ive worked on</h2>
             <ul>
                 <li>
                     <a href="https://hajinpark.com" target="_blank"
                         >hajinpark.com</a
+                    >
+                </li>
+                <li>
+                    <a href="https://based-math-game.web.app" target="_blank"
+                        >based-math-game.web.app</a
                     >
                 </li>
                 <li>
@@ -36,24 +72,66 @@
                         >earthequity.study</a
                     >
                 </li>
+            </ul>
+            <h2 id="projects">other projects</h2>
+            <ul>
                 <li>
-                    <a href="https://based-math-game.web.app" target="_blank"
-                        >based-math-game.web.app</a
+                    <a
+                        href="https://github.com/hajin-park/V-QUIP"
+                        target="_blank"
+                        >computer vision polling system research project</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/hajin-park/spotify-translator"
+                        target="_blank"
+                        >spotify song translator python package</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/hajin-park/grocery-web-scraper"
+                        target="_blank"
+                        >grocery store rest api scraper</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/hajin-park/infinite-stairs-bot"
+                        target="_blank"
+                        >opencv mobile game bot</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/hajin-park/spaceship-game"
+                        target="_blank"
+                        >pygame spaceship arcade game</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/hajin-park/instagram-tracker"
+                        target="_blank"
+                        >selenium instagram follower tracker</a
                     >
                 </li>
             </ul>
-            <h2>my languages</h2>
+            <h2 id="languages">my languages</h2>
             <ul>
                 <li>Python &lt;3</li>
                 <li>C/C++</li>
+                <li>SQL/MySQL/PostreSQL</li>
                 <li>JavaScript/TypeScript</li>
                 <li>HTML/CSS</li>
             </ul>
-            <h2>my tech stack</h2>
+            <h2 id="frameworks">frameworks/platforms</h2>
             <ul>
                 <li>Firebase</li>
                 <li>React.js</li>
-                <li>Remix.js</li>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
                 <li>Flask</li>
                 <li>FastAPI</li>
                 <li>TensorFlow</li>
@@ -66,11 +144,6 @@
             <p>
                 <a href="https://github.com/hajin-park" target="_blank"
                     >my github</a
-                >
-            </p>
-            <p>
-                <a href="https://www.kaggle.com/hajinpark" target="_blank"
-                    >my kaggle</a
                 >
             </p>
         </footer>
