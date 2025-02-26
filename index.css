@@ -1,9 +1,66 @@
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-Light.woff2")
+        format("woff2");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-LightItalic.woff2")
+        format("woff2");
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-Regular.woff2")
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-RegularItalic.woff2")
+        format("woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-BoldItalic.woff2")
+        format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-ExtraBold.woff2")
+        format("woff2");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("public/WOFF2/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2")
+        format("woff2");
+    font-weight: bolder;
+    font-style: italic;
+}
+
 * {
     box-sizing: border-box;
+    font-family: Atkinson;
 }
 
 body {
-    background-image: url("public/background.jpg");
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 100px;
@@ -30,8 +87,105 @@ nav ul {
     position: relative;
 }
 
-#skull-gif-1 {
-    position: absolute;
-    top: 0;
-    right: 0;
+#interests {
+    display: flex;
+    gap: 5px;
+}
+
+#flip {
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+#flip > div > div {
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip div:first-child {
+    animation: show 15s ease infinite;
+}
+
+@keyframes show {
+    0% {
+        margin-top: -810px;
+    }
+    6% {
+        margin-top: -720px;
+    }
+    12% {
+        margin-top: -720px;
+    }
+    17% {
+        margin-top: -630px;
+    }
+    23% {
+        margin-top: -630px;
+    }
+    28% {
+        margin-top: -540px;
+    }
+    34% {
+        margin-top: -540px;
+    }
+    39% {
+        margin-top: -450px;
+    }
+    45% {
+        margin-top: -450px;
+    }
+    50% {
+        margin-top: -360px;
+    }
+    56% {
+        margin-top: -360px;
+    }
+    61% {
+        margin-top: -270px;
+    }
+    67% {
+        margin-top: -270px;
+    }
+    72% {
+        margin-top: -180px;
+    }
+    78% {
+        margin-top: -180px;
+    }
+    83% {
+        margin-top: -90px;
+    }
+    87% {
+        margin-top: -90px;
+    }
+    93% {
+        margin-top: -0px;
+    }
+    99.99% {
+        margin-top: -0px;
+    }
+    100% {
+        margin-top: -810px;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    #tech-stack {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+    #tech-stack {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #name-tag {
+        display: flex;
+        gap: 5px;
+    }
 }
