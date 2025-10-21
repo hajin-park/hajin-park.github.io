@@ -2,64 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-    <!-- Home Page -->
+    <!-- HTML Pages -->
     <url>
         <loc>https://hajinpark.com/</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
         <image:image>
             <image:loc>https://hajinpark.com/public/cat.jpeg</image:loc>
             <image:title>Hajin Park Profile Image</image:title>
         </image:image>
     </url>
 
-    <!-- Projects Page -->
     <url>
         <loc>https://hajinpark.com/pages/projects.html</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
     </url>
 
-    <!-- Career Page -->
     <url>
         <loc>https://hajinpark.com/pages/career.html</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 
-    <!-- Resume Page -->
     <url>
         <loc>https://hajinpark.com/pages/resume.html</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 
-    <!-- Hobbies Page -->
     <url>
         <loc>https://hajinpark.com/pages/hobbies.html</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>quarterly</changefreq>
-        <priority>0.7</priority>
     </url>
 
-    <!-- Contact Page -->
     <url>
         <loc>https://hajinpark.com/pages/contact.html</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
     </url>
 
-    <!-- Resume PDF -->
+    <!-- Markdown Pages -->
+    <url>
+        <loc>https://hajinpark.com/index.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hajinpark.com/pages/projects.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hajinpark.com/pages/career.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hajinpark.com/pages/resume.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hajinpark.com/pages/hobbies.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hajinpark.com/pages/contact.md</loc>
+        <lastmod>2025-10-21</lastmod>
+    </url>
+
+    <!-- Resources -->
     <url>
         <loc>https://hajinpark.com/public/Hajin%20Park_Resume.pdf</loc>
         <lastmod>2025-10-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 
 </urlset>
