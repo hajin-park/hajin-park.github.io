@@ -1,124 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="index.css" />
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <header id="header">
-            <div id="name-tag">
-                <h1>Hi, I'm Hajin Park</h1>
-                <div id="interests">
-                    <p>I enjoy</p>
-                    <div id="flip">
-                        <div><div>reading!</div></div>
-                        <div><div>cats!</div></div>
-                        <div><div>track and field!</div></div>
-                        <div><div>cross country!</div></div>
-                        <div><div>playing the guitar!</div></div>
-                        <div><div>playing the piano!</div></div>
-                        <div><div>playing the ukulele!</div></div>
-                        <div><div>playing Valorant!</div></div>
-                        <div><div>eating california burritos!</div></div>
-                    </div>
-                </div>
-            </div>
-            <i>
-                <a href="https://github.com/hajin-park" target="_blank"
-                    >github</a
-                >
-                <a href="https://www.linkedin.com/in/hajinpark" target="_blank"
-                    >linkedin</a
-                >
-                <a href="https://www.kaggle.com/hajinpark" target="_blank"
-                    >kaggle</a
-                >
-                <a
-                    href="./public/Hajin Park_Resume.pdf"
-                    download="Hajin Park_Resume"
-                    >download resume</a
-                >
-            </i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hajin Park's Personal Portfolio - Computer Science Student at UC San Diego">
+    <meta name="author" content="Hajin Park">
+    <link rel="stylesheet" href="index.css" />
+    <title>Hajin Park - Portfolio</title>
+    <link rel="canonical" href="https://hajinpark.com">
+    <style>
+        /* Minimal CSS for basic structure - border doesn't count toward limit */
+        header {
+            border: 2px solid #000;
+        }
+        nav {
+            border: 2px solid #000;
+        }
+        main {
+            border: 2px solid #000;
+        }
+        section {
+            border: 1px solid #000;
+        }
+        footer {
+            border: 2px solid #000;
+        }
+    </style>
+    <script>
+        // Placeholder for third-party analytics
+        console.log("Analytics placeholder loaded");
+
+        // Custom element: hello-world prints "Hello world!" to console
+        class HelloWorld extends HTMLElement {
+            connectedCallback() {
+                console.log("Hello world!");
+            }
+        }
+        customElements.define('hello-world', HelloWorld);
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Hajin Park - Personal Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/hobbies.html">Hobbies</a></li>
+            <li><a href="pages/career.html">Career</a></li>
+            <li><a href="pages/resume.html">Resume</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="experiments.html">Experiments</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home Page</h1>
+
+        <!-- Profile Image -->
+        <section>
+            <picture>
+                <source srcset="public/cat.jpeg" type="image/jpeg">
+                <img src="public/cat.jpeg" alt="Profile image representing my approachable personality" width="200">
+            </picture>
+        </section>
+
+        <!-- Bio Section -->
+        <section>
+            <h2>About Me</h2>
             <p>
-                Currently a third year at the University of California, San
-                Diego, pursuing a B.S. in Computer Science from the Jacobs
-                School of Engineering. Some of my career interests include
-                full-stack development, data science, and research.
+                Fourth year at the University of California, San Diego, pursuing a B.S. in Computer Science from the Jacobs School of Engineering.
             </p>
-        </header>
-        <hr />
-        <main>
-            <h2>My tech stack includes:</h2>
-            <section id="tech-stack">
-                <div>
-                    <h3 id="languages">Languages:</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>JavaScript/TypeScript</li>
-                        <li>SQL/PostreSQL</li>
-                        <li>HTML/CSS</li>
-                        <li>R</li>
-                        <li>Lua</li>
-                        <li>Java</li>
-                        <li>LaTeX</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 id="frameworks-tools">Frameworks and Tools:</h3>
-                    <ul>
-                        <li>Firebase</li>
-                        <li>React.js</li>
-                        <li>Next.js</li>
-                        <li>Tailwind CSS</li>
-                        <li>Flask</li>
-                        <li>FastAPI</li>
-                        <li>TensorFlow</li>
-                        <li>Pytorch</li>
-                        <li>OpenCV</li>
-                    </ul>
-                </div>
-            </section>
-            <hr />
-            <h2>Work experiences</h2>
-            <ul>
-                <li>
-                    Software Engineer Intern | Intuit | June 2025 - September
-                    2025
-                </li>
-                <li>
-                    Instructional Assistant | University of California, Merced |
-                    August 2023 - August 2024
-                </li>
-                <li>
-                    Web Development Intern | Merced Senior Citizens, Inc. | June
-                    2023 - August 2023
-                </li>
-            </ul>
-            <hr />
-            <h2>Research experiences</h2>
-            <ul>
-                <li>
-                    Research and Development Intern | Salk Institute for
-                    Biological Studies | June 2024 - September 2024
-                </li>
-                <li>
-                    Research Intern | Pervasive Autonomous Networked Systems Lab
-                    at UC Merced | August 2023 - December 2023
-                </li>
-                <li>
-                    Undergraduate Research Participant | Google ExploreCSR
-                    Program | November 2022 - May 2024
-                </li>
-            </ul>
-            <hr />
-            <h2>Projects</h2>
-            <ul>
-                <li></li>
-            </ul>
-        </main>
-        <hr />
-    </body>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <article>
+                <h3>University of California, San Diego</h3>
+                <p>
+                    <strong>Degree:</strong> Bachelor of Science in Computer Science<br>
+                    <i>Expected Graduation: June 2026</i><br>
+                    <b>GPA:</b> 3.7
+                </p>
+                <p>
+                    <strong>Relevant Coursework:</strong> Data Structures and Algorithms, Software Engineering,
+                    AI: Probabilistic Models, Machine Learning Algorithms, Networked Systems,
+                    Recommender Systems and Data Mining, Database System Principles, Compiler Construction,
+                    Computer Organization and Assembly
+                </p>
+            </article>
+        </section>
+
+        <!-- Site Progress -->
+        <section>
+            <h3>Portfolio Completion Status</h3>
+            <progress value="95" max="100">95%</progress>
+            <br>
+            <span>95% Complete</span>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hajin Park. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom element that logs to console -->
+    <hello-world></hello-world>
+
+    <noscript>
+        <p>This site works best with JavaScript enabled, but all content is accessible without it.</p>
+    </noscript>
+</body>
 </html>
