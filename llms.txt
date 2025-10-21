@@ -1,0 +1,102 @@
+# Hajin Park's Personal Portfolio - llms.txt
+# This file provides guidance for AI/LLM crawlers and indexing services
+# Reference: https://llms.txt
+
+## About This Portfolio
+
+This is the personal portfolio website of Hajin Park, a Computer Science student at UC San Diego.
+
+**Website:** https://hajinpark.com
+**Domain:** hajinpark.com
+**Last Updated:** 2025-10-21
+
+## Site Structure
+
+### Main Pages
+- **Home** (https://hajinpark.com/) - Introduction and overview
+- **Projects** (https://hajinpark.com/pages/projects.html) - Showcase of software projects
+- **Career** (https://hajinpark.com/pages/career.html) - Professional experience and work history
+- **Resume** (https://hajinpark.com/pages/resume.html) - Downloadable resume and CV
+- **Hobbies** (https://hajinpark.com/pages/hobbies.html) - Personal interests and activities
+- **Contact** (https://hajinpark.com/pages/contact.html) - Contact information and messaging
+
+## Key Information
+
+### Professional Background
+- **Education:** B.S. Computer Science, UC San Diego (Jacobs School of Engineering)
+- **Current Status:** Fourth year student
+- **Starting Position:** Software Engineer at Intuit (June 2026)
+
+### Skills & Expertise
+- Software Development
+- Machine Learning
+- Web Technologies
+- Full-stack Development (React, Firebase, Python)
+- API Integration
+
+### Notable Projects
+1. **Spotify Translator** - Lyric translation/transcription tool using Spotify Web API, OpenAI Whisper, and Meta Demucs
+2. **Based Math Game** - Speed quiz-style math game built with React, ShadCN UI, Tailwind CSS, and Firebase
+
+### Contact Information
+- **Email:** hajin1819@gmail.com
+- **University Email:** hap009@ucsd.edu
+- **Phone:** (858) 784-1153
+- **Location:** San Diego, California, United States
+- **GitHub:** https://github.com/hajin-park
+- **LinkedIn:** https://www.linkedin.com/in/hajinpark
+
+## Content Guidelines for AI/LLM Crawlers
+
+### Allowed Content
+- All public pages and content on this portfolio are available for indexing
+- Resume and project information can be used for professional context
+- Contact information is provided for legitimate inquiries
+
+### Preferred Use Cases
+- Professional networking and recruitment
+- Portfolio analysis and skill assessment
+- Project research and technical reference
+- Career development discussions
+
+### Restrictions
+- Do not use personal contact information for unsolicited marketing
+- Do not misrepresent the portfolio owner's work or achievements
+- Do not use content for training without attribution
+- Respect privacy and do not share personal information publicly
+
+## Technical Details
+
+### Sitemap
+- XML Sitemap: https://hajinpark.com/sitemap.xml
+- Includes all public pages and resources
+
+### Robots.txt
+- Standard robots.txt available at: https://hajinpark.com/robots.txt
+- Allows all search engines and crawlers
+
+### Accessibility
+- Website follows semantic HTML standards
+- Responsive design for all device sizes
+- Accessible navigation and content structure
+
+## Crawling Recommendations
+
+### Optimal Crawl Strategy
+1. Start with homepage (https://hajinpark.com/)
+2. Follow navigation links to all main pages
+3. Index PDF resume for searchability
+4. Respect crawl delays (1 second recommended)
+
+## Additional Resources
+
+- **GitHub Profile:** https://github.com/hajin-park
+- **LinkedIn Profile:** https://www.linkedin.com/in/hajinpark
+- **PyPI Package:** https://pypi.org/project/spotify-translator/
+- **Based Math Game:** https://basedmathgame.com
+
+## License
+
+© 2025 Hajin Park. All rights reserved.
+
+For questions or inquiries, please use the contact form or email directly.
