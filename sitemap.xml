@@ -5,73 +5,73 @@
     <!-- HTML Pages -->
     <url>
         <loc>https://hajinpark.com/</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
         <image:image>
-            <image:loc>https://hajinpark.com/public/cat.jpeg</image:loc>
+            <image:loc>https://hajinpark.com/assets/headshot.jpeg</image:loc>
             <image:title>Hajin Park Profile Image</image:title>
         </image:image>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/projects.html</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/career.html</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/resume.html</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
-        <loc>https://hajinpark.com/pages/hobbies.html</loc>
-        <lastmod>2025-10-21</lastmod>
+        <loc>https://hajinpark.com/pages/cats.html</loc>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/contact.html</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <!-- Markdown Pages -->
     <url>
         <loc>https://hajinpark.com/index.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/projects.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/career.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/resume.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
-        <loc>https://hajinpark.com/pages/hobbies.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <loc>https://hajinpark.com/pages/cats.md</loc>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <url>
         <loc>https://hajinpark.com/pages/contact.md</loc>
-        <lastmod>2025-10-21</lastmod>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
     <!-- Resources -->
     <url>
-        <loc>https://hajinpark.com/public/Hajin%20Park_Resume.pdf</loc>
-        <lastmod>2025-10-21</lastmod>
+        <loc>https://hajinpark.com/assets/Hajin%20Park_Resume.pdf</loc>
+        <lastmod>2025-11-04</lastmod>
     </url>
 
 </urlset>

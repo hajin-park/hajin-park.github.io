@@ -1,4 +1,23 @@
+# Robots.txt for hajinpark.com
+# Allow all search engines to crawl all content
+
 User-agent: *
 Allow: /
 
+# Disallow crawling of assets directory to save crawl budget
+User-agent: *
+Disallow: /assets/cats/
+Disallow: /assets/optimized/
+
+# Allow specific bots full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
 Sitemap: https://hajinpark.com/sitemap.xml

@@ -7,7 +7,7 @@
 Personal portfolio website showcasing software development projects, professional experience, and technical skills.
 
 - **Website:** https://hajinpark.com
-- **Last Updated:** 2025-10-21
+- **Last Updated:** 2025-11-04
 
 ## Pages
 
@@ -17,9 +17,9 @@ All pages available in both HTML and Markdown formats for maximum accessibility:
 - **Projects:** https://hajinpark.com/pages/projects.html | https://hajinpark.com/pages/projects.md
 - **Career:** https://hajinpark.com/pages/career.html | https://hajinpark.com/pages/career.md
 - **Resume:** https://hajinpark.com/pages/resume.html | https://hajinpark.com/pages/resume.md
-- **Hobbies:** https://hajinpark.com/pages/hobbies.html | https://hajinpark.com/pages/hobbies.md
+- **Cats:** https://hajinpark.com/pages/cats.html | https://hajinpark.com/pages/cats.md
 - **Contact:** https://hajinpark.com/pages/contact.html | https://hajinpark.com/pages/contact.md
-- **Resume PDF:** https://hajinpark.com/public/Hajin%20Park_Resume.pdf
+- **Resume PDF:** https://hajinpark.com/assets/Hajin%20Park_Resume.pdf
 
 ## Professional Profile
 
