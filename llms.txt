@@ -1,66 +1,42 @@
-# Hajin Park - Portfolio
+# Hajin Park — Portfolio
 
-> Computer Science Student at UC San Diego | Software Engineer at Intuit (Starting June 2026)
+> Software Engineer · CS @ UC San Diego · Incoming SWE at Intuit (June 2026)
 
-## Overview
+## Website
 
-Personal portfolio website showcasing software development projects, professional experience, and technical skills.
-
-- **Website:** https://hajinpark.com
-- **Last Updated:** 2025-10-21
+- https://hajinpark.com
 
 ## Pages
 
-All pages available in both HTML and Markdown formats for maximum accessibility:
-
 - **Home:** https://hajinpark.com/ | https://hajinpark.com/index.md
 - **Projects:** https://hajinpark.com/pages/projects.html | https://hajinpark.com/pages/projects.md
-- **Career:** https://hajinpark.com/pages/career.html | https://hajinpark.com/pages/career.md
-- **Resume:** https://hajinpark.com/pages/resume.html | https://hajinpark.com/pages/resume.md
-- **Hobbies:** https://hajinpark.com/pages/hobbies.html | https://hajinpark.com/pages/hobbies.md
-- **Contact:** https://hajinpark.com/pages/contact.html | https://hajinpark.com/pages/contact.md
-- **Resume PDF:** https://hajinpark.com/public/Hajin%20Park_Resume.pdf
+- **Cats:** https://hajinpark.com/pages/cats.html | https://hajinpark.com/pages/cats.md
+- **Climbing:** https://hajinpark.com/pages/climbing.html | https://hajinpark.com/pages/climbing.md
 
 ## Professional Profile
 
-**Education:** B.S. Computer Science, UC San Diego (Jacobs School of Engineering), Fourth Year Student
+**Education:** BS Computer Science, University of California San Diego (Jacobs School of Engineering). Expected June 2026. GPA: 3.7.
 
-**Starting Position:** Software Engineer at Intuit (June 2026)
-
-**Skills:** Software Development, Machine Learning, Web Technologies, Full-stack Development (React, Firebase, Python), API Integration
+**Incoming Role:** Software Engineer at Intuit (June 2026)
 
 **Experience:**
-- Software Engineer Intern at Intuit (June 2025 - September 2025)
-- Software Engineer Intern at Intuit (June 2024 - September 2024)
-- Web Development Intern at Merced Senior Citizens, Inc. (June 2023 - August 2023)
+- Software Engineer Intern at Intuit (June–Sep 2025). Reduced costs 80% via Kafka migration; integrated third-party bank vendor REST APIs serving 100+ internal teams.
+- Software Development & Research Intern at Salk Institute (June–Sep 2024). Built GPU-accelerated bioinformatics pipeline achieving 30× speedup on genome analysis.
+- Instructional Assistant at UC San Diego CSE Dept. Taught across three semesters.
 
-## Notable Projects
+## Projects
 
-**Spotify Translator** - Lyric translation/transcription tool using Spotify Web API, OpenAI Whisper, and Meta Demucs. Available on PyPI: https://pypi.org/project/spotify-translator/
+**Spotify Translator** — Python, PyPi. Real-time Spotify lyric translation and transcription tool. https://pypi.org/project/spotify-translator/
 
-**Based Math Game** - Speed quiz-style math game for practicing base conversion. Built with React, ShadCN UI, Tailwind CSS, and Firebase. Live at: https://basedmathgame.com
+**Based Math Game** — React, Firebase. Competitive speed quiz-style math game with leaderboards. https://basedmathgame.com
 
 ## Contact
 
 - **Email:** hajin1819@gmail.com
-- **University Email:** hap009@ucsd.edu
-- **Phone:** (858) 784-1153
-- **Location:** San Diego, California, United States
 - **GitHub:** https://github.com/hajin-park
 - **LinkedIn:** https://www.linkedin.com/in/hajinpark
-
-## For AI/LLM Crawlers
-
-**Indexing:** All content is available for indexing and professional use cases including recruitment, portfolio analysis, and technical reference.
-
-**Preferred Use:** Professional networking, recruitment, skill assessment, project research, career development discussions.
-
-**Attribution:** Please attribute content when used for training or reference purposes.
 
 ## Technical
 
 - **Sitemap:** https://hajinpark.com/sitemap.xml
 - **Robots:** https://hajinpark.com/robots.txt
-- **Semantic HTML:** All pages follow semantic HTML5 standards
-- **Responsive Design:** Optimized for all device sizes
-- **Markdown Access:** All pages available in .md format for enhanced bot/LLM accessibility

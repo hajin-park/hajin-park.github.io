@@ -1,2789 +1,1447 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Hajin Park's Hobbies and Interests" />
-    <link rel="stylesheet" href="../styling/styles.css" />
-    <title>Cat Gallery</title>
-  </head>
-  <body class="site-frame">
-    <div class="transition-line transition-line-1"></div>
-    <div class="transition-line transition-line-2"></div>
-    <div class="transition-line transition-line-3"></div>
-    <nav class="site-frame-header">
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="hamburger-label">
-        <img
-          src="../assets/icons/burger-menu-black.svg"
-          alt="Open navigation menu"
-          class="hamburger-icon hamburger-icon-light"
-          width="24"
-          height="24"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="A gallery of Hajin Park's cat photos."
         />
-        <img
-          src="../assets/icons/burger-menu-white.svg"
-          alt="Open navigation menu"
-          class="hamburger-icon hamburger-icon-dark"
-          width="24"
-          height="24"
-        />
-        <img
-          src="../assets/icons/exit-right-black.svg"
-          alt="Close navigation menu"
-          class="close-icon close-icon-light"
-          width="24"
-          height="24"
-        />
-        <img
-          src="../assets/icons/exit-right-white.svg"
-          alt="Close navigation menu"
-          class="close-icon close-icon-dark"
-          width="24"
-          height="24"
-        />
-      </label>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="cats.html">Cats</a></li>
-        <li><a href="career.html">Career</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <main class="site-frame-body">
-      <header>
-        <h1>Cat Gallery</h1>
-      </header>
-
-      <cat-gallery>
-        <!-- Row 1 -->
-        <cat-row>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_2470-350.webp 1x,
-                  ../assets/optimized/cats/IMG_2470-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_2470-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_2470-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_2470.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_2491-350.webp 1x,
-                  ../assets/optimized/cats/IMG_2491-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_2491-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_2491-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_2491.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3648-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3648-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3648-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3648-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3648.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3649-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3649-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3649-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3649-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3649.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3653-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3653-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3653-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3653-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3653.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_2470-350.webp 1x,
-                  ../assets/optimized/cats/IMG_2470-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_2470-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_2470-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_2470.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_2491-350.webp 1x,
-                  ../assets/optimized/cats/IMG_2491-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_2491-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_2491-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_2491.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3648-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3648-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3648-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3648-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3648.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3649-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3649-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3649-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3649-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3649.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3653-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3653-700.webp 2x
-                "
-              />
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3653-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3653-700.jpeg 2x
-                "
-              />
-              <img
-                src="../assets/cats/IMG_3653.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 2 -->
-        <cat-row>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3682-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3682-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3682-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3682-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3682.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3711-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3711-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3711-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3711-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3711.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3731-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3731-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3731-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3731-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3731.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3752-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3752-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3752-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3752-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3752.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3757-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3757-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3757-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3757-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3757.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3682-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3682-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3682-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3682-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3682.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3711-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3711-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3711-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3711-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3711.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3731-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3731-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3731-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3731-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3731.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3752-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3752-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3752-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3752-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3752.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3757-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3757-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3757-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3757-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3757.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 3 -->
-        <cat-row>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3764-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3764-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3764-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3764-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3764.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3800-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3800-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3800-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3800-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3800.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3845-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3845-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3845-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3845-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3845.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3864-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3864-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3864-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3864-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3864.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3903-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3903-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3903-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3903-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3903.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3764-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3764-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3764-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3764-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3764.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3800-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3800-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3800-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3800-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3800.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3845-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3845-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3845-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3845-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3845.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3864-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3864-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3864-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3864-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3864.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3903-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3903-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3903-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3903-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3903.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 4 -->
-        <cat-row>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3907-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3907-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3907-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3907-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3907.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3987-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3987-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3987-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3987-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3987.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4010-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4010-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4010-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4010-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4010.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4024-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4024-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4024-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4024-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4024.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4033-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4033-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4033-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4033-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4033.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3907-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3907-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3907-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3907-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3907.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_3987-350.webp 1x,
-                  ../assets/optimized/cats/IMG_3987-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_3987-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_3987-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_3987.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4010-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4010-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4010-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4010-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4010.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4024-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4024-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4024-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4024-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4024.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4033-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4033-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4033-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4033-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4033.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 5 -->
-        <cat-row>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4548-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4548-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4548-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4548-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4548.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4549-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4549-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4549-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4549-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4549.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4741-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4741-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4741-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4741-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4741.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4746-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4746-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4746-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4746-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4746.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4900-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4900-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4900-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4900-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4900.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4548-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4548-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4548-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4548-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4548.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4549-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4549-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4549-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4549-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4549.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4741-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4741-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4741-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4741-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4741.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4746-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4746-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4746-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4746-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4746.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_4900-350.webp 1x,
-                  ../assets/optimized/cats/IMG_4900-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_4900-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_4900-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_4900.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 6 -->
-        <cat-row>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5510-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5510-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5510-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5510-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5510.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5532-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5532-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5532-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5532-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5532.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5584-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5584-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5584-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5584-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5584.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5602-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5602-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5602-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5602-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5602.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5650-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5650-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5650-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5650-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5650.jpg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5510-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5510-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5510-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5510-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5510.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5532-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5532-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5532-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5532-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5532.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5584-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5584-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5584-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5584-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5584.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5602-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5602-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5602-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5602-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5602.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5650-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5650-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5650-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5650-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5650.jpg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 7 -->
-        <cat-row>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5654-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5654-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5654-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5654-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5654.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5665-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5665-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5665-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5665-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5665.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5681-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5681-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5681-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5681-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5681.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5694-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5694-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5694-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5694-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5694.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5761-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5761-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5761-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5761-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5761.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5654-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5654-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5654-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5654-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5654.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5665-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5665-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5665-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5665-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5665.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5681-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5681-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5681-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5681-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5681.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5694-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5694-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5694-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5694-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5694.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5761-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5761-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5761-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5761-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5761.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 8 -->
-        <cat-row>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5764-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5764-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5764-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5764-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5764.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5828-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5828-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5828-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5828-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5828.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5843-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5843-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5843-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5843-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5843.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5846-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5846-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5846-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5846-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5846.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5865-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5865-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5865-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5865-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5865.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5764-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5764-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5764-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5764-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5764.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5828-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5828-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5828-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5828-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5828.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5843-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5843-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5843-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5843-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5843.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5846-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5846-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5846-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5846-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5846.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5865-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5865-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5865-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5865-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5865.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 9 -->
-        <cat-row>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5897-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5897-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5897-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5897-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5897.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5992-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5992-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5992-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5992-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5992.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_6012-350.webp 1x,
-                  ../assets/optimized/cats/IMG_6012-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_6012-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_6012-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_6012.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_7962-350.webp 1x,
-                  ../assets/optimized/cats/IMG_7962-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_7962-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_7962-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_7962.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9205-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9205-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9205-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9205-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9205.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5897-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5897-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5897-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5897-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5897.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_5992-350.webp 1x,
-                  ../assets/optimized/cats/IMG_5992-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_5992-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_5992-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_5992.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_6012-350.webp 1x,
-                  ../assets/optimized/cats/IMG_6012-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_6012-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_6012-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_6012.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_7962-350.webp 1x,
-                  ../assets/optimized/cats/IMG_7962-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_7962-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_7962-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_7962.JPG"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9205-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9205-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9205-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9205-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9205.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-
-        <!-- Row 10 -->
-        <cat-row>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9247-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9247-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9247-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9247-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9247.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9278-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9278-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9278-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9278-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9278.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9984-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9984-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9984-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9984-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9984.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/lp_image-350.webp 1x,
-                  ../assets/optimized/cats/lp_image-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/lp_image-350.jpeg 1x,
-                  ../assets/optimized/cats/lp_image-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/lp_image.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/lp_image_1-350.webp 1x,
-                  ../assets/optimized/cats/lp_image_1-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/lp_image_1-350.jpeg 1x,
-                  ../assets/optimized/cats/lp_image_1-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/lp_image_1.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-purple">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9247-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9247-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9247-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9247-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9247.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-pink">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9278-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9278-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9278-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9278-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9278.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-blue">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/IMG_9984-350.webp 1x,
-                  ../assets/optimized/cats/IMG_9984-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/IMG_9984-350.jpeg 1x,
-                  ../assets/optimized/cats/IMG_9984-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/IMG_9984.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-yellow">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/lp_image-350.webp 1x,
-                  ../assets/optimized/cats/lp_image-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/lp_image-350.jpeg 1x,
-                  ../assets/optimized/cats/lp_image-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/lp_image.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-          <cat-image category="pastel-green">
-            <picture>
-              <source
-                type="image/webp"
-                srcset="
-                  ../assets/optimized/cats/lp_image_1-350.webp 1x,
-                  ../assets/optimized/cats/lp_image_1-700.webp 2x
-                "
-              />
-
-              <source
-                type="image/jpeg"
-                srcset="
-                  ../assets/optimized/cats/lp_image_1-350.jpeg 1x,
-                  ../assets/optimized/cats/lp_image_1-700.jpeg 2x
-                "
-              />
-
-              <img
-                src="../assets/cats/lp_image_1.jpeg"
-                alt="A picture of one of my cats"
-                loading="lazy"
-                width="350"
-                height="350"
-              />
-            </picture>
-          </cat-image>
-        </cat-row>
-      </cat-gallery>
-    </main>
-
-    <footer class="site-frame-footer">
-      <p>&copy; 2025 Hajin Park. All rights reserved.</p>
-    </footer>
-    <script src="../scripts/theme-toggle.js"></script>
-  </body>
+        <link rel="canonical" href="https://hajinpark.com/pages/cats.html" />
+        <link rel="alternate" type="text/markdown" href="/llms.txt" />
+        <link rel="stylesheet" href="/styling/styles.css" />
+        <title>Cats — Hajin Park</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="content">
+                <input type="checkbox" id="menu-toggle" hidden />
+                <label
+                    for="menu-toggle"
+                    class="hamburger-label"
+                    aria-label="Toggle navigation"
+                >
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </label>
+                <nav class="site-nav" aria-label="Main navigation">
+                    <a href="/">Home</a>
+                    <a href="/pages/projects.html">Projects</a>
+                    <a href="/pages/cats.html" aria-current="page">Cats</a>
+                    <a href="/pages/climbing.html">Climbing</a>
+                </nav>
+                <button
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Toggle theme"
+                >
+                    <svg
+                        class="icon-sun"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <circle cx="12" cy="12" r="5" />
+                        <line x1="12" y1="1" x2="12" y2="3" />
+                        <line x1="12" y1="21" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="3" y2="12" />
+                        <line x1="21" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                    </svg>
+                    <svg
+                        class="icon-moon"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path
+                            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main class="content">
+            <h1 class="page-title">Cats</h1>
+
+            <div class="gallery">
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_2470-350.webp 350w,
+                                /assets/optimized/cats/IMG_2470-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_2470-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_2470-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_2470-350.jpeg"
+                            alt="Cat photo 1"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_2491-350.webp 350w,
+                                /assets/optimized/cats/IMG_2491-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_2491-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_2491-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_2491-350.jpeg"
+                            alt="Cat photo 2"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3648-350.webp 350w,
+                                /assets/optimized/cats/IMG_3648-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3648-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3648-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3648-350.jpeg"
+                            alt="Cat photo 3"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3649-350.webp 350w,
+                                /assets/optimized/cats/IMG_3649-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3649-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3649-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3649-350.jpeg"
+                            alt="Cat photo 4"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3653-350.webp 350w,
+                                /assets/optimized/cats/IMG_3653-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3653-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3653-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3653-350.jpeg"
+                            alt="Cat photo 5"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3682-350.webp 350w,
+                                /assets/optimized/cats/IMG_3682-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3682-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3682-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3682-350.jpeg"
+                            alt="Cat photo 6"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3711-350.webp 350w,
+                                /assets/optimized/cats/IMG_3711-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3711-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3711-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3711-350.jpeg"
+                            alt="Cat photo 7"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3731-350.webp 350w,
+                                /assets/optimized/cats/IMG_3731-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3731-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3731-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3731-350.jpeg"
+                            alt="Cat photo 8"
+                            width="350"
+                            height="350"
+                            loading="eager"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3752-350.webp 350w,
+                                /assets/optimized/cats/IMG_3752-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3752-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3752-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3752-350.jpeg"
+                            alt="Cat photo 9"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3757-350.webp 350w,
+                                /assets/optimized/cats/IMG_3757-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3757-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3757-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3757-350.jpeg"
+                            alt="Cat photo 10"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3764-350.webp 350w,
+                                /assets/optimized/cats/IMG_3764-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3764-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3764-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3764-350.jpeg"
+                            alt="Cat photo 11"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3800-350.webp 350w,
+                                /assets/optimized/cats/IMG_3800-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3800-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3800-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3800-350.jpeg"
+                            alt="Cat photo 12"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3845-350.webp 350w,
+                                /assets/optimized/cats/IMG_3845-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3845-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3845-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3845-350.jpeg"
+                            alt="Cat photo 13"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3864-350.webp 350w,
+                                /assets/optimized/cats/IMG_3864-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3864-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3864-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3864-350.jpeg"
+                            alt="Cat photo 14"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3903-350.webp 350w,
+                                /assets/optimized/cats/IMG_3903-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3903-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3903-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3903-350.jpeg"
+                            alt="Cat photo 15"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3907-350.webp 350w,
+                                /assets/optimized/cats/IMG_3907-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3907-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3907-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3907-350.jpeg"
+                            alt="Cat photo 16"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_3987-350.webp 350w,
+                                /assets/optimized/cats/IMG_3987-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_3987-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_3987-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_3987-350.jpeg"
+                            alt="Cat photo 17"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4010-350.webp 350w,
+                                /assets/optimized/cats/IMG_4010-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4010-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4010-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4010-350.jpeg"
+                            alt="Cat photo 18"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4024-350.webp 350w,
+                                /assets/optimized/cats/IMG_4024-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4024-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4024-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4024-350.jpeg"
+                            alt="Cat photo 19"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4033-350.webp 350w,
+                                /assets/optimized/cats/IMG_4033-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4033-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4033-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4033-350.jpeg"
+                            alt="Cat photo 20"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4548-350.webp 350w,
+                                /assets/optimized/cats/IMG_4548-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4548-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4548-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4548-350.jpeg"
+                            alt="Cat photo 21"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4549-350.webp 350w,
+                                /assets/optimized/cats/IMG_4549-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4549-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4549-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4549-350.jpeg"
+                            alt="Cat photo 22"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4741-350.webp 350w,
+                                /assets/optimized/cats/IMG_4741-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4741-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4741-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4741-350.jpeg"
+                            alt="Cat photo 23"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4746-350.webp 350w,
+                                /assets/optimized/cats/IMG_4746-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4746-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4746-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4746-350.jpeg"
+                            alt="Cat photo 24"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_4900-350.webp 350w,
+                                /assets/optimized/cats/IMG_4900-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_4900-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_4900-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_4900-350.jpeg"
+                            alt="Cat photo 25"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5510-350.webp 350w,
+                                /assets/optimized/cats/IMG_5510-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5510-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5510-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5510-350.jpeg"
+                            alt="Cat photo 26"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5532-350.webp 350w,
+                                /assets/optimized/cats/IMG_5532-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5532-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5532-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5532-350.jpeg"
+                            alt="Cat photo 27"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5584-350.webp 350w,
+                                /assets/optimized/cats/IMG_5584-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5584-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5584-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5584-350.jpeg"
+                            alt="Cat photo 28"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5602-350.webp 350w,
+                                /assets/optimized/cats/IMG_5602-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5602-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5602-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5602-350.jpeg"
+                            alt="Cat photo 29"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5650-350.webp 350w,
+                                /assets/optimized/cats/IMG_5650-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5650-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5650-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5650-350.jpeg"
+                            alt="Cat photo 30"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5654-350.webp 350w,
+                                /assets/optimized/cats/IMG_5654-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5654-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5654-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5654-350.jpeg"
+                            alt="Cat photo 31"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5665-350.webp 350w,
+                                /assets/optimized/cats/IMG_5665-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5665-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5665-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5665-350.jpeg"
+                            alt="Cat photo 32"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5681-350.webp 350w,
+                                /assets/optimized/cats/IMG_5681-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5681-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5681-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5681-350.jpeg"
+                            alt="Cat photo 33"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5694-350.webp 350w,
+                                /assets/optimized/cats/IMG_5694-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5694-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5694-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5694-350.jpeg"
+                            alt="Cat photo 34"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5761-350.webp 350w,
+                                /assets/optimized/cats/IMG_5761-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5761-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5761-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5761-350.jpeg"
+                            alt="Cat photo 35"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5764-350.webp 350w,
+                                /assets/optimized/cats/IMG_5764-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5764-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5764-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5764-350.jpeg"
+                            alt="Cat photo 36"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5828-350.webp 350w,
+                                /assets/optimized/cats/IMG_5828-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5828-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5828-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5828-350.jpeg"
+                            alt="Cat photo 37"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5843-350.webp 350w,
+                                /assets/optimized/cats/IMG_5843-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5843-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5843-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5843-350.jpeg"
+                            alt="Cat photo 38"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5846-350.webp 350w,
+                                /assets/optimized/cats/IMG_5846-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5846-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5846-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5846-350.jpeg"
+                            alt="Cat photo 39"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5865-350.webp 350w,
+                                /assets/optimized/cats/IMG_5865-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5865-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5865-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5865-350.jpeg"
+                            alt="Cat photo 40"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5897-350.webp 350w,
+                                /assets/optimized/cats/IMG_5897-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5897-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5897-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5897-350.jpeg"
+                            alt="Cat photo 41"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_5992-350.webp 350w,
+                                /assets/optimized/cats/IMG_5992-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_5992-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_5992-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_5992-350.jpeg"
+                            alt="Cat photo 42"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_6012-350.webp 350w,
+                                /assets/optimized/cats/IMG_6012-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_6012-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_6012-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_6012-350.jpeg"
+                            alt="Cat photo 43"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_7962-350.webp 350w,
+                                /assets/optimized/cats/IMG_7962-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_7962-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_7962-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_7962-350.jpeg"
+                            alt="Cat photo 44"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_9205-350.webp 350w,
+                                /assets/optimized/cats/IMG_9205-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_9205-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_9205-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_9205-350.jpeg"
+                            alt="Cat photo 45"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_9247-350.webp 350w,
+                                /assets/optimized/cats/IMG_9247-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_9247-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_9247-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_9247-350.jpeg"
+                            alt="Cat photo 46"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_9278-350.webp 350w,
+                                /assets/optimized/cats/IMG_9278-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_9278-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_9278-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_9278-350.jpeg"
+                            alt="Cat photo 47"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/IMG_9984-350.webp 350w,
+                                /assets/optimized/cats/IMG_9984-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/IMG_9984-350.jpeg 350w,
+                                /assets/optimized/cats/IMG_9984-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/IMG_9984-350.jpeg"
+                            alt="Cat photo 48"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/lp_image-350.webp 350w,
+                                /assets/optimized/cats/lp_image-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/lp_image-350.jpeg 350w,
+                                /assets/optimized/cats/lp_image-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/lp_image-350.jpeg"
+                            alt="Cat photo 49"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                /assets/optimized/cats/lp_image_1-350.webp 350w,
+                                /assets/optimized/cats/lp_image_1-700.webp 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                /assets/optimized/cats/lp_image_1-350.jpeg 350w,
+                                /assets/optimized/cats/lp_image_1-700.jpeg 700w
+                            "
+                            sizes="(max-width: 768px) 50vw, 280px"
+                        />
+                        <img
+                            src="/assets/optimized/cats/lp_image_1-350.jpeg"
+                            alt="Cat photo 50"
+                            width="350"
+                            height="350"
+                            loading="lazy"
+                        />
+                    </picture>
+                </figure>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Hajin Park</p>
+        </footer>
+
+        <script src="/scripts/theme-toggle.js"></script>
+    </body>
 </html>
