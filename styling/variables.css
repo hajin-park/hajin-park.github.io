@@ -1,86 +1,117 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* ── @font-face ── */
+@font-face {
+    font-family: "Alegreya";
+    src: url("../assets/fonts/Alegreya.woff2") format("woff2");
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../assets/fonts/Alegreya-Italic.woff2") format("woff2");
+    font-weight: 400 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SourceSans3";
+    src: url("../assets/fonts/SourceSans3.woff2") format("woff2");
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SourceSans3";
+    src: url("../assets/fonts/SourceSans3-Italic.woff2") format("woff2");
+    font-weight: 300 700;
+    font-style: italic;
+    font-display: swap;
+}
 
 :root {
-  color-scheme: light dark;
+    color-scheme: light dark;
 
-  /* Light theme colors */
-  --text-light: color(display-p3 0.05 0.08 0.07);
-  --background-light: color(display-p3 0.99 0.99 0.98);
-  --primary-light: color(display-p3 0.55 0.75 0.7);
-  --primary-foreground-light: color(display-p3 0.85 0.95 0.92);
-  --secondary-light: color(display-p3 0.85 0.7 0.85);
-  --secondary-foreground-light: color(display-p3 0.95 0.88 0.95);
-  --accent-light: color(display-p3 0.85 0.8 0.6);
-  --accent-foreground-light: color(display-p3 0.92 0.88 0.75);
+    /* ── Font Stacks ── */
+    --font-serif: "Alegreya", Georgia, "Times New Roman", serif;
+    --font-sans: "SourceSans3", "Source Sans 3", system-ui, sans-serif;
 
-  /* Dark theme colors */
-  --text-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.95 0.98 0.97),
-    white 5%
-  );
-  --background-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.08 0.1 0.09),
-    black 20%
-  );
-  --primary-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.55 0.75 0.7),
-    black 5%
-  );
-  --primary-foreground-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.65 0.8 0.75),
-    black 50%
-  );
-  --secondary-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.85 0.7 0.85),
-    black 15%
-  );
-  --secondary-foreground-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.75 0.65 0.75),
-    black 40%
-  );
-  --accent-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.85 0.8 0.6),
-    black 15%
-  );
-  --accent-foreground-dark: color-mix(
-    in display-p3,
-    color(display-p3 0.8 0.75 0.6),
-    black 40%
-  );
+    /* ── Named Palette (OKLCH) ── */
+    --celadon: oklch(83.5% 0.082 131.7);
+    --celadon-2: oklch(76.2% 0.052 133.4);
+    --ash-grey: oklch(70.9% 0.035 158.4);
+    --muted-teal: oklch(62.8% 0.024 148.9);
+    --dusty-olive: oklch(57.2% 0.037 114.7);
 
-  /* Font and spacing variables */
-  --font-primary: "Lora";
-  --page-padding-height: 2%;
-  --page-padding-width: 10%;
-}
+    /* ── Backgrounds ── */
+    --bg-primary: light-dark(oklch(98% 0.005 90), oklch(15% 0.005 90));
+    --bg-secondary: light-dark(oklch(96% 0.008 130), oklch(18% 0.008 130));
+    --bg-accent: light-dark(var(--celadon), oklch(22% 0.02 132));
 
-/* iPhone 14 Pro Max width */
-@media screen and (min-width: 430px) {
-  :root {
-    --page-padding-height: 4%;
-    --page-padding-width: 15%;
-  }
-}
+    /* ── Foregrounds ── */
+    --fg-primary: light-dark(oklch(18% 0 0), oklch(92% 0 0));
+    --fg-secondary: light-dark(oklch(40% 0.01 90), oklch(70% 0.01 90));
+    --fg-muted: light-dark(var(--dusty-olive), var(--ash-grey));
+    --fg-accent: light-dark(var(--muted-teal), var(--celadon-2));
 
-/* iPad Pro width */
-@media screen and (min-width: 1024px) {
-  :root {
-    --page-padding-height: 5%;
-    --page-padding-width: 20%;
-  }
-}
+    /* ── Borders & Dividers ── */
+    --border-primary: light-dark(
+        oklch(85% 0.01 90 / 0.4),
+        oklch(30% 0.01 90 / 0.4)
+    );
+    --border-accent: light-dark(
+        oklch(76.2% 0.052 133.4 / 0.3),
+        oklch(62.8% 0.024 148.9 / 0.3)
+    );
+    --divider: light-dark(oklch(70% 0 0 / 0.15), oklch(50% 0 0 / 0.15));
 
-/* Random desktop width */
-@media screen and (min-width: 1920px) {
-  :root {
-    --page-padding-height: 6%;
-    --page-padding-width: 25%;
-  }
+    /* ── Interactive ── */
+    --link: light-dark(var(--muted-teal), var(--celadon));
+    --link-hover: light-dark(var(--dusty-olive), var(--celadon-2));
+
+    /* ── Type Scale ── */
+    --text-hero: clamp(3.5rem, 8vw, 7rem);
+    --text-display: clamp(2.5rem, 5vw, 4.5rem);
+    --text-h2: clamp(1.75rem, 3vw, 2.5rem);
+    --text-h3: clamp(1.25rem, 2vw, 1.75rem);
+    --text-body: clamp(1rem, 1.2vw, 1.125rem);
+    --text-small: clamp(0.75rem, 0.9vw, 0.875rem);
+    --text-tiny: 0.6875rem;
+
+    /* ── Tracking & Leading ── */
+    --tracking-tight: -0.03em;
+    --tracking-normal: 0em;
+    --tracking-wide: 0.08em;
+    --tracking-ultra: 0.15em;
+
+    --leading-tight: 1.05;
+    --leading-snug: 1.25;
+    --leading-normal: 1.6;
+    --leading-loose: 1.8;
+
+    /* ── Spacing (8pt grid) ── */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 4rem;
+    --space-3xl: 6rem;
+    --space-4xl: 8rem;
+
+    --page-gutter: clamp(1.5rem, 5vw, 6rem);
+    --max-content: 72rem;
+
+    /* ── Easing ── */
+    --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* ── Durations ── */
+    --duration-fast: 150ms;
+    --duration-normal: 300ms;
+    --duration-slow: 500ms;
+    --duration-page: 800ms;
 }
