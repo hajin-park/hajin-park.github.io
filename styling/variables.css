@@ -1,117 +1,117 @@
 /* ── @font-face ── */
 @font-face {
-    font-family: "Alegreya";
-    src: url("../assets/fonts/Alegreya.woff2") format("woff2");
-    font-weight: 400 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Alegreya";
+  src: url("../assets/fonts/Alegreya.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../assets/fonts/Alegreya-Italic.woff2") format("woff2");
-    font-weight: 400 700;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Alegreya";
+  src: url("../assets/fonts/Alegreya-Italic.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "SourceSans3";
-    src: url("../assets/fonts/SourceSans3.woff2") format("woff2");
-    font-weight: 300 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "SourceSans3";
+  src: url("../assets/fonts/SourceSans3.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "SourceSans3";
-    src: url("../assets/fonts/SourceSans3-Italic.woff2") format("woff2");
-    font-weight: 300 700;
-    font-style: italic;
-    font-display: swap;
+  font-family: "SourceSans3";
+  src: url("../assets/fonts/SourceSans3-Italic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 :root {
-    color-scheme: light dark;
+  color-scheme: light dark;
 
-    /* ── Font Stacks ── */
-    --font-serif: "Alegreya", Georgia, "Times New Roman", serif;
-    --font-sans: "SourceSans3", "Source Sans 3", system-ui, sans-serif;
+  /* ── Font Stacks ── */
+  --font-serif: "Alegreya", Georgia, "Times New Roman", serif;
+  --font-sans: "SourceSans3", "Source Sans 3", system-ui, sans-serif;
 
-    /* ── Named Palette (OKLCH) ── */
-    --celadon: oklch(83.5% 0.082 131.7);
-    --celadon-2: oklch(76.2% 0.052 133.4);
-    --ash-grey: oklch(70.9% 0.035 158.4);
-    --muted-teal: oklch(62.8% 0.024 148.9);
-    --dusty-olive: oklch(57.2% 0.037 114.7);
+  /* ── Named Palette (OKLCH) ── */
+  --celadon: oklch(83.5% 0.082 131.7);
+  --celadon-2: oklch(76.2% 0.052 133.4);
+  --ash-grey: oklch(70.9% 0.035 158.4);
+  --muted-teal: oklch(62.8% 0.024 148.9);
+  --dusty-olive: oklch(57.2% 0.037 114.7);
 
-    /* ── Backgrounds ── */
-    --bg-primary: light-dark(oklch(98% 0.005 90), oklch(15% 0.005 90));
-    --bg-secondary: light-dark(oklch(96% 0.008 130), oklch(18% 0.008 130));
-    --bg-accent: light-dark(var(--celadon), oklch(22% 0.02 132));
+  /* ── Backgrounds ── */
+  --bg-primary: light-dark(oklch(98% 0.005 90), oklch(15% 0.005 90));
+  --bg-secondary: light-dark(oklch(96% 0.008 130), oklch(18% 0.008 130));
+  --bg-accent: light-dark(var(--celadon), oklch(22% 0.02 132));
 
-    /* ── Foregrounds ── */
-    --fg-primary: light-dark(oklch(18% 0 0), oklch(92% 0 0));
-    --fg-secondary: light-dark(oklch(40% 0.01 90), oklch(70% 0.01 90));
-    --fg-muted: light-dark(var(--dusty-olive), var(--ash-grey));
-    --fg-accent: light-dark(var(--muted-teal), var(--celadon-2));
+  /* ── Foregrounds ── */
+  --fg-primary: light-dark(oklch(18% 0 0), oklch(92% 0 0));
+  --fg-secondary: light-dark(oklch(40% 0.01 90), oklch(70% 0.01 90));
+  --fg-muted: light-dark(var(--dusty-olive), var(--ash-grey));
+  --fg-accent: light-dark(var(--muted-teal), var(--celadon-2));
 
-    /* ── Borders & Dividers ── */
-    --border-primary: light-dark(
-        oklch(85% 0.01 90 / 0.4),
-        oklch(30% 0.01 90 / 0.4)
-    );
-    --border-accent: light-dark(
-        oklch(76.2% 0.052 133.4 / 0.3),
-        oklch(62.8% 0.024 148.9 / 0.3)
-    );
-    --divider: light-dark(oklch(70% 0 0 / 0.15), oklch(50% 0 0 / 0.15));
+  /* ── Borders & Dividers ── */
+  --border-primary: light-dark(
+    oklch(85% 0.01 90 / 0.4),
+    oklch(30% 0.01 90 / 0.4)
+  );
+  --border-accent: light-dark(
+    oklch(76.2% 0.052 133.4 / 0.3),
+    oklch(62.8% 0.024 148.9 / 0.3)
+  );
+  --divider: light-dark(oklch(70% 0 0 / 0.15), oklch(50% 0 0 / 0.15));
 
-    /* ── Interactive ── */
-    --link: light-dark(var(--muted-teal), var(--celadon));
-    --link-hover: light-dark(var(--dusty-olive), var(--celadon-2));
+  /* ── Interactive ── */
+  --link: light-dark(var(--muted-teal), var(--celadon));
+  --link-hover: light-dark(var(--dusty-olive), var(--celadon-2));
 
-    /* ── Type Scale ── */
-    --text-hero: clamp(3.5rem, 8vw, 7rem);
-    --text-display: clamp(2.5rem, 5vw, 4.5rem);
-    --text-h2: clamp(1.75rem, 3vw, 2.5rem);
-    --text-h3: clamp(1.25rem, 2vw, 1.75rem);
-    --text-body: clamp(1rem, 1.2vw, 1.125rem);
-    --text-small: clamp(0.75rem, 0.9vw, 0.875rem);
-    --text-tiny: 0.6875rem;
+  /* ── Type Scale ── */
+  --text-hero: clamp(3.5rem, 8vw, 7rem);
+  --text-display: clamp(2.5rem, 5vw, 4.5rem);
+  --text-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --text-h3: clamp(1.25rem, 2vw, 1.75rem);
+  --text-body: clamp(1rem, 1.2vw, 1.125rem);
+  --text-small: clamp(0.75rem, 0.9vw, 0.875rem);
+  --text-tiny: 0.6875rem;
 
-    /* ── Tracking & Leading ── */
-    --tracking-tight: -0.03em;
-    --tracking-normal: 0em;
-    --tracking-wide: 0.08em;
-    --tracking-ultra: 0.15em;
+  /* ── Tracking & Leading ── */
+  --tracking-tight: -0.03em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.08em;
+  --tracking-ultra: 0.15em;
 
-    --leading-tight: 1.05;
-    --leading-snug: 1.25;
-    --leading-normal: 1.6;
-    --leading-loose: 1.8;
+  --leading-tight: 1.05;
+  --leading-snug: 1.25;
+  --leading-normal: 1.6;
+  --leading-loose: 1.8;
 
-    /* ── Spacing (8pt grid) ── */
-    --space-xs: 0.5rem;
-    --space-sm: 1rem;
-    --space-md: 1.5rem;
-    --space-lg: 2rem;
-    --space-xl: 3rem;
-    --space-2xl: 4rem;
-    --space-3xl: 6rem;
-    --space-4xl: 8rem;
+  /* ── Spacing (8pt grid) ── */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
 
-    --page-gutter: clamp(1.5rem, 5vw, 6rem);
-    --max-content: 72rem;
+  --page-gutter: clamp(1.5rem, 5vw, 6rem);
+  --max-content: 72rem;
 
-    /* ── Easing ── */
-    --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
-    --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
-    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  /* ── Easing ── */
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 
-    /* ── Durations ── */
-    --duration-fast: 150ms;
-    --duration-normal: 300ms;
-    --duration-slow: 500ms;
-    --duration-page: 800ms;
+  /* ── Durations ── */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --duration-page: 800ms;
 }

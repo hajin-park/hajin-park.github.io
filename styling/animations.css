@@ -1,41 +1,41 @@
 /* ── View Transition API ── */
 @view-transition {
-    navigation: auto;
+  navigation: auto;
 }
 
 /* ── Crossfade keyframes ── */
 @keyframes fade-out {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* ── View transition crossfade ── */
 @media (prefers-reduced-motion: no-preference) {
-    ::view-transition-old(root) {
-        animation: var(--duration-page, 800ms) var(--ease-in-out, ease) fade-out;
-    }
-    ::view-transition-new(root) {
-        animation: var(--duration-page, 800ms) var(--ease-in-out, ease) fade-in;
-    }
+  ::view-transition-old(root) {
+    animation: var(--duration-page, 800ms) var(--ease-in-out, ease) fade-out;
+  }
+  ::view-transition-new(root) {
+    animation: var(--duration-page, 800ms) var(--ease-in-out, ease) fade-in;
+  }
 }
 
 /* ── Reduced motion: instant transitions ── */
 @media (prefers-reduced-motion: reduce) {
-    ::view-transition-old(root),
-    ::view-transition-new(root) {
-        animation: none;
-    }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
 }
